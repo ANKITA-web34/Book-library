@@ -11,7 +11,7 @@ header {
 }
 
 /*.font {
-    font-family: "Fredericka the Great", sans-serif;
+    font-family: "Fredericka the Great", sans-serif;  color:  #f498b8
 }*/
 
 .banner-heading::first-letter {
@@ -90,4 +90,10 @@ header {
 .change .first-row , .change .second-row  {
     transform: translateX(0);
     opacity: 1;
+}
+
+/*famous writter*/
+
+.famous-writers {
+    background: linear-gradient(rgba(250, 250, 250, .7), rgba(250,250,250, .8)) ,url(../img/writers-bg.jpeg) fixed center/ cover;
 }
