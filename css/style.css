@@ -1,0 +1,61 @@
+/*header*/
+
+header {
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)) ,url(../img/header-bg-2.jpg) fixed center /cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+/*.font {
+    font-family: "Fredericka the Great", sans-serif;
+}*/
+
+.banner-heading::first-letter {
+    font-family: "Great vibes", cursive;
+    font-size: 10rem;
+    margin-right: 20px;
+}
+
+.banner-heading img {
+    animation: beating 3s infinite;
+}
+
+@keyframes beating {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.1);
+    }
+    60% {
+        transform: scale(1.05);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*comman-title*/
+.comman-title {
+    display: inline-block;
+    font-size: 3rem;
+    text-shadow: 500;
+    text-shadow: 2px 2px 5px #aaa;
+    font-family: "Fredericka the Great", sans-serif;
+    transition: all .5s;
+}
+
+.comman-title::first-letter {
+    font-family: "Great vibes", cursive;
+    font-size: 5rem;
+    margin-right: 10px;
+    font-style: normal;
+}
+
+.comman-title:hover {
+    transform: translate(-5px, -3px);
+    text-shadow: 2px 5px 20px #aaa;
+}
