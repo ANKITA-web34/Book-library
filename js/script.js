@@ -12,6 +12,7 @@ $(document).ready(function() {
        } else {
             $('.gallery').removeClass('change');
        }
+       
     });
 
     $('.writers-accordion').click(function(event) {
