@@ -1,8 +1,14 @@
 $(document).ready(function() {
 
+
+  $('.humburger-menu').click(function() {
+    $('.navigation').toggleClass('change');
+  });
+
     lightbox.option({
       'wrapAround': true
     });
+
 
     $(window).scroll(function() {
         let position = $(this).scrollTop();
@@ -23,5 +29,7 @@ $(document).ready(function() {
       }
       
     });
+
+    
 
 });
